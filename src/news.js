@@ -39,6 +39,7 @@ render() {
     <div className="News">
         <div  className="container card text-center"> 
           <div>
+            <h4>Fake News Detector !</h4>
             <Alert style={{margin:10}} variant="success" >Fake news Detector</Alert>
             <div className="card-body">
               <textarea defaultValue={""} className="form-control" placeholder="Insert The news Here...(Arabic language)" value={this.state.news} 
